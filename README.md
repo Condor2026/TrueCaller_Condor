@@ -15,7 +15,6 @@
 ![Threat Intel](https://img.shields.io/badge/Threat%20Intel-Enabled-blue)
 ![CIDR Support](https://img.shields.io/badge/CIDR%20Support-Yes-green)
 ![VirusTotal](https://img.shields.io/badge/VirusTotal-API%20Ready-orange)
-![Dashboard](https://img.shields.io/badge/Web%20Dashboard-Cyberpunk-ff69b4)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 ---
