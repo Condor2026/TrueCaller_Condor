@@ -1,1 +1,9 @@
-
+scam_db.json
+__pycache__/
+*.pyc
+.env
+reports/
+*.log
+.DS_Store
+.vscode/
+.idea/
