@@ -11,13 +11,12 @@
 ![VirusTotal](https://img.shields.io/badge/VirusTotal-API%20Ready-orange)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=600&lines=TrueCall_Condor+%7C+Threat+Hunter;OSINT+%7C+Purple+Team;Vigilancia+digital+activa;Documentación+automatizada;Actividad+maliciosa+en+red" alt="Typing animation" />
 </p>
 
 
-## 🎮 Estructura del menú principal
+**🎮Estructura del menú principal**
 
 Cuando ejecutes `python3 truecall_condor.py`, verás un menú interactivo con las siguientes opciones:
 
