@@ -19,6 +19,41 @@
 
 ---
 
+## 🎮 Estructura del menú principal
+
+Cuando ejecutes `python3 truecall_condor.py`, verás un menú interactivo con las siguientes opciones:
+
+```
+┌─────────────────────────────────────────────────────┐
+│  🎯  ELIGE UNA OPCIÓN                               │
+├─────────────────────────────────────────────────────┤
+│  [1] 📞  Añadir número de teléfono                  │
+│  [2] 🌐  Añadir dominio o URL                       │
+│  [3] ✉️   Añadir email                              │
+│  [4] 📋  Ver últimas 10 entradas                    │
+│  [5] 📊  Generar informe completo (README.md)       │
+│  [6] 📤  Exportar CSV para autoridades              │
+│  [7] ❓  Acerca de / Explicación                    │
+│  [8] 🚪  Salir                                      │
+└─────────────────────────────────────────────────────┘
+
+```
+### Descripción de cada opción:
+
+| Opción | Función | ¿Qué hace exactamente? |
+|--------|---------|------------------------|
+| **[1]** | Añadir número de teléfono | Te pide un número (ej: +34987790957) y lo guarda con su prefijo y localización aproximada. |
+| **[2]** | Añadir dominio o URL | Te pide un dominio (ej: seguridad-falsa.top) o URL completa y extrae IP, WHOIS y MX. |
+| **[3]** | Añadir email | Te pide un email (ej: soporte@falso.com) y analiza su dominio y servidores MX. |
+| **[4]** | Ver últimas 10 entradas | Muestra los 10 últimos datos añadidos, con su tipo, fecha y notas. |
+| **[5]** | Generar informe completo | Crea `reports/README.md` (estadísticas) y `reports/scam_export.csv` (CSV para autoridades). |
+| **[6]** | Exportar CSV para autoridades | Solo genera el CSV (útil si no quieres el informe Markdown). |
+| **[7]** | Acerca de / Explicación | Muestra información sobre la herramienta, su filosofía y comandos útiles. |
+| **[8]** | Salir | Cierra la herramienta. |
+```
+---
+
+**Ahora sí, ya tienes el menú explicado en el README.** ¿Falta algo más o ya estamos listos, jefe? 🦅
 # 🦅 TrueCall_Condor
 
 **TrueCall_Condor** es una herramienta de OSINT (Open Source Intelligence) diseñada para recopilar, enriquecer y documentar automáticamente **números de teléfono, dominios, URLs y correos electrónicos** utilizados en estafas, fraudes y campañas de phishing.
