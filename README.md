@@ -1,26 +1,46 @@
-![Version](https://img.shields.io/badge/version-2.0-blue)
-![Release](https://img.shields.io/badge/release-stable-brightgreen)
-![License](https://badgen.net/badge/license/GPLv3/blue)
-![Python](https://img.shields.io/badge/python-3.8+-blue)
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Termux-lightgrey)
-![OSINT](https://img.shields.io/badge/OSINT-Sí-brightgreen)
-![Passive](https://img.shields.io/badge/Passive-Yes-blue)
-![Analytical](https://img.shields.io/badge/Analytical-Yes-blue)
-![Threat Intel](https://img.shields.io/badge/Threat%20Intel-Enabled-blue)
-![CIDR Support](https://img.shields.io/badge/CIDR%20Support-Yes-green)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-API%20Ready-orange)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=700&color=00FF00&center=true&vCenter=true&width=700&lines=🔍+TrueCall_Condor+%7C+Threat+Hunter;🖥️+OSINT+%7C+Purple+Team;📡+Vigilancia+digital+activa;📄+Documentación+automatizada;⚠️+Actividad+maliciosa+en+red" alt="Typing animation" />
 </p>
 
+---
 
-**🎮Estructura del menú principal**
+# 🦅 TrueCall_Condor
+
+**TrueCall_Condor** es una herramienta de OSINT (Open Source Intelligence) diseñada para recopilar, enriquecer y documentar automáticamente **números de teléfono, dominios, URLs y correos electrónicos** utilizados en estafas, fraudes y campañas de phishing.
+
+Su propósito es **investigar y exponer** infraestructuras maliciosas desde una perspectiva ética y legal, generando informes estructurados que puedan ser publicados, compartidos o entregados a autoridades.
+
+---
+
+## 📊 Badges del proyecto
+
+<p align="center">
+  <!-- Versión y estado -->
+  <img src="https://img.shields.io/badge/version-2.0-blue" alt="Version 2.0" />
+  <img src="https://img.shields.io/badge/release-stable-brightgreen" alt="Release stable" />
+  <img src="https://img.shields.io/badge/license-GPLv3-blue" alt="License GPLv3" />
+  <br>
+  <!-- Requisitos técnicos -->
+  <img src="https://img.shields.io/badge/python-3.8+-blue" alt="Python 3.8+" />
+  <img src="https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Termux-lightgrey" alt="Platforms" />
+  <br>
+  <!-- Capacidades -->
+  <img src="https://img.shields.io/badge/OSINT-Sí-brightgreen" alt="OSINT" />
+  <img src="https://img.shields.io/badge/Passive-Yes-blue" alt="Passive" />
+  <img src="https://img.shields.io/badge/Analytical-Yes-blue" alt="Analytical" />
+  <img src="https://img.shields.io/badge/Threat%20Intel-Enabled-blue" alt="Threat Intel" />
+  <img src="https://img.shields.io/badge/CIDR%20Support-Yes-green" alt="CIDR Support" />
+  <img src="https://img.shields.io/badge/VirusTotal-API%20Ready-orange" alt="VirusTotal" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs Welcome" />
+</p>
+
+---
+
+## 🎮 Estructura del menú principal
 
 Cuando ejecutes `python3 truecall_condor.py`, verás un menú interactivo con las siguientes opciones:
 
----
+```
 ┌─────────────────────────────────────────────────────┐
 │  🎯  ELIGE UNA OPCIÓN                               │
 ├─────────────────────────────────────────────────────┤
@@ -33,7 +53,7 @@ Cuando ejecutes `python3 truecall_condor.py`, verás un menú interactivo con la
 │  [7] ❓  Acerca de / Explicación                    │
 │  [8] 🚪  Salir                                      │
 └─────────────────────────────────────────────────────┘
----
+```
 
 ### Descripción de cada opción:
 
@@ -51,11 +71,6 @@ Cuando ejecutes `python3 truecall_condor.py`, verás un menú interactivo con la
 ---
 
 **Ahora sí, ya tienes el menú explicado en el README.** ¿Falta algo más o ya estamos listos, jefe? 🦅
-# 🦅 TrueCall_Condor
-
-**TrueCall_Condor** es una herramienta de OSINT (Open Source Intelligence) diseñada para recopilar, enriquecer y documentar automáticamente **números de teléfono, dominios, URLs y correos electrónicos** utilizados en estafas, fraudes y campañas de phishing.
-
-Su propósito es **investigar y exponer** infraestructuras maliciosas desde una perspectiva ética y legal, generando informes estructurados que puedan ser publicados, compartidos o entregados a autoridades.
 
 ---
 
@@ -254,12 +269,12 @@ TrueCall_Condor nace de la necesidad de contar con herramientas éticas y accesi
 - **Colaboración**: Cualquier persona puede contribuir.
 - **Responsabilidad**: Uso ético y legal.
 - **Eficacia**: Automatización de tareas repetitivas para centrarse en el análisis.
- 
+
 ---
 
 ## ⭐ ¿Te ha sido útil?
 
-Si esta herramienta te ha ayudado a documentar estafas, proteger a otros o simplemente aprender, **considera dejar una estrella ⭐ en GitHub**. 
+Si esta herramienta te ha ayudado a documentar estafas, proteger a otros o simplemente aprender, **considera dejar una estrella ⭐ en GitHub**.
 
 Cada estrella me motiva a seguir mejorando la herramienta y a mantenerla actualizada.
 
@@ -267,7 +282,7 @@ Cada estrella me motiva a seguir mejorando la herramienta y a mantenerla actuali
 
 ## 📢 Comparte este proyecto
 
-Si conoces a alguien que pueda beneficiarse de TrueCall_Condor (investigadores, periodistas, víctimas de estafas), **compártelo**. 
+Si conoces a alguien que pueda beneficiarse de TrueCall_Condor (investigadores, periodistas, víctimas de estafas), **compártelo**.
 
 Juntos podemos hacer que las estafas sean más difíciles de ocultar.
 
@@ -277,7 +292,7 @@ Juntos podemos hacer que las estafas sean más difíciles de ocultar.
 
 > *"No ataco. Vigilo. Documento. Denuncio."*
 
-**TrueCall_Condor** es un proyecto vivo. Si tienes ideas, mejoras o encuentras algún fallo, **abre un issue o haz un pull request**. 
+**TrueCall_Condor** es un proyecto vivo. Si tienes ideas, mejoras o encuentras algún fallo, **abre un issue o haz un pull request**.
 
 Gracias por llegar hasta aquí. 🚀
 
@@ -285,6 +300,12 @@ Gracias por llegar hasta aquí. 🚀
 
 **Desarrollado con ❤️ y café por [Condor2026](https://github.com/Condor2026)**
 
-[![GitHub stars](https://img.shields.io/github/stars/Condor2026/TrueCall_Condor?style=social)](https://github.com/Condor2026/TrueCall_Condor/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Condor2026/TrueCall_Condor?style=social)](https://github.com/Condor2026/TrueCall_Condor/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/Condor2026/TrueCall_Condor?style=social)](https://github.com/Condor2026/TrueCall_Condor/watchers)
+<p align="center">
+  <!-- Badges sociales al final, todos funcionando -->
+  <img src="https://img.shields.io/github/stars/Condor2026/TrueCall_Condor?style=social" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/Condor2026/TrueCall_Condor?style=social" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/watchers/Condor2026/TrueCall_Condor?style=social" alt="GitHub watchers" />
+</p>
+
+
+
