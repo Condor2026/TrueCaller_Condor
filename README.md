@@ -20,7 +20,7 @@
 
 Cuando ejecutes `python3 truecall_condor.py`, verás un menú interactivo con las siguientes opciones:
 
-```
+---
 ┌─────────────────────────────────────────────────────┐
 │  🎯  ELIGE UNA OPCIÓN                               │
 ├─────────────────────────────────────────────────────┤
@@ -33,8 +33,8 @@ Cuando ejecutes `python3 truecall_condor.py`, verás un menú interactivo con la
 │  [7] ❓  Acerca de / Explicación                    │
 │  [8] 🚪  Salir                                      │
 └─────────────────────────────────────────────────────┘
+---
 
-```
 ### Descripción de cada opción:
 
 | Opción | Función | ¿Qué hace exactamente? |
@@ -47,7 +47,7 @@ Cuando ejecutes `python3 truecall_condor.py`, verás un menú interactivo con la
 | **[6]** | Exportar CSV para autoridades | Solo genera el CSV (útil si no quieres el informe Markdown). |
 | **[7]** | Acerca de / Explicación | Muestra información sobre la herramienta, su filosofía y comandos útiles. |
 | **[8]** | Salir | Cierra la herramienta. |
-```
+
 ---
 
 **Ahora sí, ya tienes el menú explicado en el README.** ¿Falta algo más o ya estamos listos, jefe? 🦅
